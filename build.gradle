@@ -39,3 +39,7 @@ repositories {
 dependencies {
     compile 'org.springframework.cloud:spring-cloud-config-server'
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.14'
+}
