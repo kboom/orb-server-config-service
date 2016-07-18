@@ -1,6 +1,8 @@
 language: Java
 jdk:
 - oraclejdk8
+before_install:
+ - chmod +x gradlew
 deploy:
   provider: heroku
   api_key:
