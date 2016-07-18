@@ -1,9 +1,7 @@
 buildscript {
 
     repositories {
-        maven {
-            url('http://localhost:10001/content/groups/public/')
-        }
+        mavenCentral()
         maven {
             url "http://dl.bintray.com/kboom/gradle-plugins"
         }
