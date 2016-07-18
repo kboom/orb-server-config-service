@@ -10,7 +10,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.kbhit.orangebox:orb-service-plugin:1.0'
+        classpath 'com.kbhit.orangebox:orb-service-plugin:1.1'
     }
 
 }
