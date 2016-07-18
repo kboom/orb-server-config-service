@@ -40,6 +40,10 @@ dependencies {
     compile 'org.springframework.cloud:spring-cloud-config-server'
 }
 
+task stage {
+    dependsOn build
+}
+
 task wrapper(type: Wrapper) {
     gradleVersion = '2.14'
 }
