@@ -1,11 +1,11 @@
 server:
-  port: 8888
+  port: ${PORT:8888}
 
 spring:
   cloud:
     config:
       server:
         git:
-          uri: https://kbhit@bitbucket.org/kbhit/orangebox-server-config.git
-          username: kbhit
-          password: zLg9D2gg
+          uri: https://github.com/kboom/orb-static-server-config.git
+          username: ${GITHUB_LOGIN}
+          password: ${GITHUB_PASS}
